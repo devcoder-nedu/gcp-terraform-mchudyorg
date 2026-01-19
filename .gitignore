@@ -1,2 +1,31 @@
-.terraform/
-*.json
+# 1. Local .terraform directories (Plugins & Modules)
+**/.terraform/*
+
+# 2. Terraform State files (CRITICAL: Never commit these!)
+*.tfstate
+*.tfstate.*
+
+# 3. Crash logs
+crash.log
+crash.*.log
+
+# 4. Exclude sensitive variables files
+*.tfvars
+*.tfvars.json
+
+# 5. Override files (often used for local settings)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# 6. CLI configuration files
+.terraformrc
+terraform.rc
+
+# 7. OS & Editor Junk
+.DS_Store
+.vscode/
+.idea/
+
+*key.json

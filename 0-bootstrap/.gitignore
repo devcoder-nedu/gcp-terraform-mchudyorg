@@ -1,0 +1,4 @@
+/files/.terraform/
+*.json
+/files/*.tfvars
+/files/.terraform.lock.hcl
